@@ -1,0 +1,289 @@
+.body {
+    background-color: #1f80e0;
+
+}
+
+nav {
+    display: flex;
+    gap: 30px;
+}
+
+.navs>nav>.icon>div {
+    width: 35px;
+    height: 4px;
+    background-color: white;
+    margin-left: 70px;
+    margin-top: 14px;
+    transition: all 0.3s ease-in;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in;
+    transition-delay: 0s;
+    font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+}
+
+.name {
+    margin-top: 22px;
+    color: white;
+}
+
+.tv {
+    margin-top: 22px;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: none;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    line-height: normal;
+}
+
+.movies {
+    margin-top: 22px;
+    color: white;
+
+}
+
+.sports {
+    margin-top: 22px;
+    color: white;
+
+}
+
+.disneyplus {
+    margin-top: 22px;
+    color: white;
+
+}
+
+.kids {
+    margin-top: 22px;
+    color: yellow;
+
+}
+
+.search {
+    margin-top: 22px;
+    margin-left: 200px;
+}
+
+input[type="search"] {
+    border-bottom: 1px solid;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 16px;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    width: 240px;
+    height: 32px;
+    border-bottom: solid white;
+    background-color: blue;
+    background: none;
+    background-image: none;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+}
+
+input[type="search"]::placeholder {
+    font-size: 20px;
+    color: white;
+}
+
+.subscribe {
+    margin-top: 22px;
+}
+
+button[type="subs"] {
+    border-radius: 4px;
+    text-transform: uppercase;
+    background-color: #1f80e0;
+    font-family: "Roboto", "HelveticaNeue-Light", sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-top-color: initial;
+    border-top-style: none;
+    border-top-width: initial;
+    border-right-color: initial;
+    border-right-style: none;
+    border-right-width: initial;
+    border-bottom-color: initial;
+    border-bottom-style: none;
+    border-bottom-width: initial;
+    border-left-color: initial;
+    border-left-style: none;
+    border-left-width: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+}
+
+.login {
+    margin-top: 22px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-decoration-line: none;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+}
+
+
+.matter {
+    position: relative;
+}
+
+.subscriber {
+    margin-top: 60px;
+    margin-left: 170px;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+.mat {}
+
+.main-img {
+    position: absolute;
+    left: 700px;
+    top: -10px;
+}
+
+.vik {
+    font-size: 30px;
+    color: white;
+    margin-left: 170px;
+}
+
+.time {
+    font-size: 30px;
+    color: white;
+    margin-left: 170px;
+}
+
+.info {
+    margin-left: 170px;
+    color: white;
+}
+
+.playbutton {
+    margin-top: 7px;
+    color: white;
+    border: none;
+    background-color: #192133;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.play {
+    margin-top:-1px;
+    border: 0;
+    background: transparent;
+    box-sizing: border-box;
+    width: 0;
+    height: 14px;
+    margin-left:170px;
+    border-color: transparent transparent transparent white;
+    transition: 20ms all ease;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 37px 0 37px 50px;
+}
+.watchlist{
+    margin-top: 7px;
+    color: white;
+    margin-left:30px;
+    border: none;
+    background-color: #192133;
+    font-size: 30px;
+    font-weight: 900;
+}
+.wl{
+    font-weight: 0;
+    font-size: 25px;
+}
+.availabel{
+    margin-left:170px;
+    font-size:22px;
+    color:white;
+    
+}
+.தமிழ்{
+    font-weight: 500;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:#192133;
+    color:white;
+}
+.മലയാളം{
+    font-weight: 500;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:#192133;
+    color:white;
+}
+.हिंदी{
+    font-weight: 500;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:#192133;
+    color:white;
+}
+.ಕನ್ನಡ{
+    font-weight: 500;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:#192133;
+    color:white;
+}
+.తెలుగు{
+    font-weight: 500;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color:#192133;
+    color:white;
+}
